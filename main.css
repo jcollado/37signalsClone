@@ -54,14 +54,6 @@ body {
     font-family: sans-serif;
 }
 
-#welcome_text {
-    position: absolute;
-    top: 5px;
-    font-size: 13px;
-    color: #aaa;
-    float: left;
-}
-
 #title {
     margin-top: 37px;
     text-align: center;
@@ -71,8 +63,16 @@ nav {
     text-align: right;
 }
 
+nav li:first-child p {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #aaa;
+    float: left;
+}
+
 nav li {
     display: inline;
+    line-height: 150%;
 }
 
 nav a {
