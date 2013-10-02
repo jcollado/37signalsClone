@@ -63,7 +63,7 @@ body {
 }
 
 #title {
-    margin: 37px 0 30px 0;
+    margin-top: 37px;
     text-align: center;
 }
 
@@ -71,18 +71,36 @@ nav {
     text-align: right;
 }
 
-nav ul li {
+nav li {
     display: inline;
 }
 
-nav ul li a {
+nav a {
     margin: 10px;
     font-size: 12px;
     text-decoration: none;
+    color: #4c74bf;
+}
+
+nav a:hover {
+    color: #79a2cf;
+}
+
+nav li:last-child a {
+    color: #3cb6ea;
+}
+
+nav li:last-child a:hover {
+    color: #4c14bc;
 }
 
 img {
     display: block;
+}
+
+#title {
+    /* I took this from the original page */
+    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 }
 
 #title img {
@@ -90,28 +108,34 @@ img {
 }
 
 #title h1 {
-    width: 835px;
+    width: 900px;
     margin: 20px auto 25px auto;
-
-    /* Honestly, I copied this from the original page */
-    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
     font-weight: 500;
     font-size: 58px;
+
+    /* I also saw this in the original page */
+    letter-spacing: -2px;
 }
 
 #title p {
-    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 
 #apps {
-    width: 630px;
-    margin: 0 auto;
+    height: 310px;
+    width: 666px;
+    margin: 10px auto 0 auto;
 }
 
 .app {
-    background-color: #eee;
-    width: 150px;
+    height: 225px;
+    width: 160px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    background: #fcfcfc;
+    background: linear-gradient(white, #efefef);
     margin: 0;
     text-align: center;
     float: left;
@@ -120,19 +144,48 @@ img {
 }
 
 .app img {
-    margin: 5px auto 0 auto;
+    margin: 10px auto 10px auto;
 }
 
-.app h2 {
-    color: red;
+.app_name a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #369;
 }
 
-#separator {
+.app_name {
+    position: relative;
+}
+.app_name span {
+    position: absolute;
+    font-size: 11px;
+    color: #a7b3bc;
+}
+
+.app h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #cc003d;
+}
+
+.app p {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.separator {
     clear: left;
     text-align: center;
     font-size: 30px;
+    color: #ccc;
+    /* Letter spacing applies after the last letter. */
+    /* Hence some padding is needed to keep the alignment */
+    padding-left: 20px;
+    letter-spacing: 20px;
 }
 
-#separator:after {
-    content: "* * *";
+.separator:after {
+    content: "***";
 }
