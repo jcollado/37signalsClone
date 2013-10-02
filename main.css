@@ -46,3 +46,55 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* Here the custom CSS for this page starts */
+#welcome_text {
+    float: left;
+}
+
+#title {
+    text-align: center;
+}
+
+#title img {
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+img {
+    display: block;
+}
+
+#apps {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.app {
+    background-color: #eee;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+    float: left;
+}
+
+.app img {
+    margin: 0 auto;
+}
+
+#separator {
+    clear: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#separator:after {
+    content: "* * *";
+}
