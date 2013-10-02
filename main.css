@@ -49,16 +49,40 @@ table {
 
 /* Here the custom CSS for this page starts */
 body {
-    margin: 30px 40px;
+    position: relative;
+    margin: 24px 55px;
+    font-family: sans-serif;
 }
 
 #welcome_text {
+    position: absolute;
+    top: 5px;
+    font-size: 13px;
+    color: #aaa;
     float: left;
 }
 
 #title {
-    margin: 30px 0 30px 0;
+    margin: 37px 0 30px 0;
     text-align: center;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    margin: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
 }
 
 #title img {
@@ -66,8 +90,8 @@ body {
 }
 
 #title h1 {
-    width: 825px;
-    margin: 20px auto 20px auto;
+    width: 835px;
+    margin: 20px auto 25px auto;
 
     /* Honestly, I copied this from the original page */
     font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
@@ -79,17 +103,6 @@ body {
     font-weight: bold;
 }
 
-nav {
-    text-align: right;
-}
-
-nav ul li {
-    display: inline;
-}
-
-img {
-    display: block;
-}
 
 #apps {
     width: 630px;
@@ -107,7 +120,7 @@ img {
 }
 
 .app img {
-    margin: 0 auto;
+    margin: 5px auto 0 auto;
 }
 
 .app h2 {
