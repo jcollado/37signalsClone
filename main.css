@@ -54,6 +54,10 @@ body {
     font-family: sans-serif;
 }
 
+#content {
+    min-width: 900px;
+}
+
 #title {
     margin-top: 37px;
     text-align: center;
