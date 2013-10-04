@@ -125,13 +125,13 @@ header p {
 }
 
 
-#apps {
+article {
     height: 310px;
     width: 666px;
     margin: 10px auto 0 auto;
 }
 
-.app {
+section {
     height: 225px;
     width: 160px;
     border: 1px solid #e8e8e8;
@@ -145,11 +145,11 @@ header p {
     margin: 20px;
 }
 
-.app h2 {
+section h2 {
     display: inline;
 }
 
-.app img {
+section img {
     margin: 10px auto 10px auto;
 }
 
