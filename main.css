@@ -147,6 +147,10 @@ img {
     margin: 20px;
 }
 
+.app h2 {
+    display: inline;
+}
+
 .app img {
     margin: 10px auto 10px auto;
 }
