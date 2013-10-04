@@ -188,8 +188,8 @@ section img {
     color: #ccc;
     /* Letter spacing applies after the last letter. */
     /* Hence some padding is needed to keep the alignment */
-    padding-left: 20px;
     letter-spacing: 20px;
+    padding-right: -20px;
 }
 
 .separator:after {
