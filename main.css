@@ -136,11 +136,12 @@ header a {
     width: 900px;
 }
 
-#header_basecamp h1 {
-    width: 800px;
+#header_basecamp, #header_highrise, #header_campfire {
+    display: none;
 }
 
-#header_highrise {
+#header_basecamp h1 {
+    width: 800px;
 }
 
 #header_highrise h1 {
@@ -177,6 +178,7 @@ section {
     float: left;
     padding: 10px;
     margin: 20px;
+    position: relative;
 }
 
 section h2 {
@@ -185,6 +187,20 @@ section h2 {
 
 section img {
     margin: 10px auto 10px auto;
+}
+
+.arrow_left, .arrow_right {
+    position: absolute;
+    top: -45px;
+    display: none;
+}
+
+.arrow_left {
+    right: -30px;
+}
+
+.arrow_right {
+    left: -15px;
 }
 
 .app_name a {
