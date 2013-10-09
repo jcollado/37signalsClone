@@ -162,13 +162,11 @@ header a {
 }
 
 article {
-    height: 310px;
     width: 700px;
     margin: 10px auto 0 auto;
 }
 
 section {
-    height: 225px;
     width: 160px;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
@@ -228,6 +226,7 @@ section h3 {
 
 section p {
     margin-top: 16px;
+    margin-bottom: 12px;
     font-size: 14px;
     line-height: 130%;
 }
@@ -237,6 +236,7 @@ section p {
     text-align: center;
     font-size: 30px;
     color: #ccc;
+    padding-top: 15px;
     /* Letter spacing applies after the last letter. */
     /* Hence some padding is needed to keep the alignment */
     letter-spacing: 20px;
