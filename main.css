@@ -168,14 +168,14 @@ section img {
     color: #a7b3bc;
 }
 
-.app h3 {
+section h3 {
     font-size: 14px;
     font-weight: bold;
     margin-top: 15px;
     color: #cc003d;
 }
 
-.app p {
+section p {
     margin-top: 16px;
     font-size: 14px;
     line-height: 130%;
