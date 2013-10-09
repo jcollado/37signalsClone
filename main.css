@@ -100,6 +100,7 @@ img {
 header {
     margin-top: 37px;
     text-align: center;
+    height: 220px;
 
     /* I took this from the original page */
     font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
@@ -111,7 +112,7 @@ header img {
 
 header h1 {
     font-size: 44px;
-    margin: 20px auto 25px auto;
+    margin: 20px auto 10px auto;
 
     /* I also saw this in the original page */
     letter-spacing: -2px;
