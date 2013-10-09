@@ -110,10 +110,8 @@ header img {
 }
 
 header h1 {
-    width: 900px;
+    font-size: 44px;
     margin: 20px auto 25px auto;
-    font-weight: 500;
-    font-size: 58px;
 
     /* I also saw this in the original page */
     letter-spacing: -2px;
@@ -121,9 +119,45 @@ header h1 {
 
 header p {
     font-size: 18px;
+    line-height: 150%;
+    margin: auto;
+}
+
+header a {
+    color: #369;
+}
+
+#header_default p {
     letter-spacing: 1px;
 }
 
+#header_default h1 {
+    font-size: 58px;
+    width: 900px;
+}
+
+#header_basecamp h1 {
+    width: 800px;
+}
+
+#header_highrise {
+}
+
+#header_highrise h1 {
+    width: 700px;
+}
+
+#header_highrise p {
+    width: 900px;
+}
+
+#header_campfire h1 {
+    width: 800px;
+}
+
+#header_campfire p {
+    width: 850px;
+}
 
 article {
     height: 310px;
